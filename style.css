@@ -1,0 +1,240 @@
+.items{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.item img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.item img:hover{
+    transform: scale(1.04);
+}
+.item h4{
+    padding: 5px;
+    text-align: center;
+}
+.item button{
+    padding: 5px 30px;
+    border: none;
+    background-color: #4453bb;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.4s all;
+}
+.item button:hover{
+    transform: scale(1.04);
+}
+
+.carts{
+    display: hide;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+.cart img{
+    display: hide;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.cart img:hover{
+    display: hide;
+    transform: scale(1.04);
+}
+.cart h4{
+    display: hide;
+    padding: 5px;
+    text-align: center;
+}
+.cart button{
+    display: hide;
+    padding: 5px 30px;
+    border: none;
+    background-color: #4453bb;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.4s all;
+}
+.cart button:hover{
+    display: hide;
+    transform: scale(1.04);
+}
+
+.container {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 36px;
+  }
+  
+  .buy-now {
+    background-color: white;
+    border: none;
+    color: blue;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .product-details-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .product-details-container img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .product-details-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-details-container p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .quantity button {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .quantity input {
+    width: 50px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .quantity input:focus {
+    outline: none;
+    border-bottom: 2px solid #007bff;
+  }
+
+  .checkout-header {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .checkout-header h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .checkout-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .checkout-details p {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .checkout-details span {
+    font-weight: bold;
+  }
+  
+  .checkout-btn {
+    background-color: #1c75bc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #145687;
+  }
+
+  .your-order {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    max-width: 600px;
+  }
+  
+  .your-order h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-image {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .product-details {
+    flex: 1;
+  }
+  
+  .product-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product-details p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .product-details p:last-child {
+    font-weight: bold;
+  }

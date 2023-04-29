@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Grading System </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+
+    <p>
+        <span id="prc">250</span>
+        <span id="spf">50</span>
+    </p>
+
+    <p>Quantity
+        <button onclick="minus()">-</button>
+        <span id="qty">1</span>
+        <button type="button" onclick="add()">+</button>
+    </p>
+
+    <p>
+        <span id="ttl">0</span>
+    </p>
+
+    <div class="container">
+        <img src="jpg" alt="Product Image">
+        <h1>Product Name</h1>
+        <button class="buy-now">Buy Now</button>
+      </div>
+
+      <div class="product-details-container">
+        <img src="product-image.jpg" alt="Product Image">
+        <h2>Product Name</h2>
+        <p>Product Price: $8408.00</p>
+        <p>Shipping to Cagayan de Oro City</p>
+        <p>Shipping Fee: $50.00</p>
+        <div class="quantity">
+            <p>Quantity
+                <button onclick="minus()">-</button>
+                <span id="qty">1</span>
+                <button type="button" onclick="add()">+</button>
+            </p>
+        </div>
+      </div>
+
+      <div class="checkout-header">
+        <h2>Ready to Checkout</h2>
+        <div class="checkout-details">
+          <p>Subtotal: <span class="subtotal">$100.00</span></p>
+          <p>Quantity: <span class="quantity">1</span></p>
+          <p>Shipping Fee: <span class="shipping-fee">$50.00</span></p>
+          <p>Total: <span class="total">$150.00</span></p>
+        </div>
+        <button class="checkout-btn">Checkout</button>
+      </div>
+
+      <div class="your-order">
+        <h2>Your Order</h2>
+        <div class="product">
+          <div class="product-image">
+            <img src="product1.jpg" alt="Product 1">
+          </div>
+          <div class="product-details">
+            <h3>Product 1 Name</h3>
+            <p>Price: $100.00</p>
+            <p>Quantity: 1</p>
+            <p>Shipping Fee: $10.00</p>
+            <p>Total: $110.00</p>
+          </div>
+        </div>
+      </div>
+
+    
+</body>
+</html>
